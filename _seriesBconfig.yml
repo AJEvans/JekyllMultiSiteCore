@@ -1,0 +1,37 @@
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /jekyll-example/
+# relative_permalinks: true
+
+# Setup
+title:               'Series B'
+tagline:             'This is series B'
+description:         'Online home of series B.'
+# baseurl:              http://massatleeds.github.io/webGIS/
+
+# About/contact
+author:
+  name:             Andy Evans
+  url:              https://github.com/AJEvans
+  email:            a.j.evans@leeds.ac.uk
+
+# Custom vars
+version:             1.0.0
+
+destination:         _siteB
+layouts:     ./_seriesBlayouts
+exclude:     [seriesApracticals,atom.xml,build.bat]
+
+defaults:
+  -
+    scope:
+      path: "seriesAandBlectures" 
+    values:
+      layout: "lecture"
+  -
+    scope:
+      path: "seriesBpracticals" 
+    values:
+      layout: "practical"

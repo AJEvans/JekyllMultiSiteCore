@@ -1,0 +1,17 @@
+﻿/** Two column layout from Steven Bradley **/
+/** http://www.vanseodesign.com/css/2-column-layout-code/ **/
+
+
+BODY {
+	background-color:#ffffff;
+    color:#666666;
+    font-family: "Courier New", Courier, monospace;
+    font-size:10pt;
+}
+
+P {
+	margin-top:3px;
+	margin-bottom:3px;
+	text-align:justify;
+	line-height:109%
+}
