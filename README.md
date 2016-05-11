@@ -1,4 +1,4 @@
 JekyllMultiSiteExample
 ======================
 
-A stripped down example of using Jekyll for muliple sites using the same resources.
+A stripped down example of using Jekyll for multiple sites using the same resources.
